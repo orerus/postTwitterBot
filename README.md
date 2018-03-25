@@ -13,7 +13,11 @@ $ python3 -m pip install requests requests_oauthlib
 $ python3 -m pip install pytz
 
 ## Usage
-各種APIキーを必要に応じて書き換え実行
+各種APIキーを必要に応じて書き換え実行。
+翻訳にGoogleのCloud Translation APIを利用している為、
+利用する場合は下記を参考に認証情報を設定する。
+
+[google-cloud authentication](https://google-cloud-python.readthedocs.io/en/latest/core/auth.html#client-provided-authentication)
 
 ## Author
 
